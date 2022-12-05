@@ -7,7 +7,7 @@ namespace GeoPet.Models
         public string Name { get; set; }
         public int Idade { get; set; }
         public string Porte { get; set; }
-        public string Raca { get; set; }
+        public RacaEnum Raca { get; set; }
         [ForeignKey("UserId")]
         public int UserId { get; set; }
     }

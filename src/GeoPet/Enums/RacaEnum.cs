@@ -1,0 +1,21 @@
+public enum RacaEnum
+{
+    Dogue Alemao,
+    Vira-lata,
+    Boston Terrier,
+    Chihuahua,
+    Maltês,
+    Pinscher,
+    Pug,
+    Poodle,
+    Beagle,
+    Buldogue,
+    Chow Chow,
+    Pit Bull,
+    Shiba,
+    Akita,
+    Bernese,
+    Boxer,
+    Doberman,
+    Golden Retriever,
+}
