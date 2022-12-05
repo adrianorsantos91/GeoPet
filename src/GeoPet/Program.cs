@@ -18,8 +18,14 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+//Adicionar uso de autenticação
+app.UseAuthentication();
+
+// Adicionar uso de autorização
 app.UseAuthorization();
 
 app.MapControllers();
 
 app.Run();
+
+public partial class Program {}
