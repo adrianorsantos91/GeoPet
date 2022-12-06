@@ -8,6 +8,7 @@ namespace GeoPet.Controllers
     public class GeoPetController : ControllerBase, IGeoPetController
     {
         public readonly IGeoPetService _service;
+        public 
         public GeoPetController(IGeoPetService service)
         {
             _service = service;
